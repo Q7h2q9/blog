@@ -1,0 +1,126 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import GitHubStats from "@/components/mdx/GitHubStats.astro";
+---
+
+<BaseLayout title="Home">
+  <MainCard
+    title="你好，我是 Q7h"
+    description="欢迎来到我的小站"
+    textOverlay="主页"
+    infoIcon="lucide:info"
+  >
+    <div class="space-y-8">
+      <!-- Hero Section -->
+      <section class="py-6">
+        <div class="flex flex-col items-center text-center">
+          <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            🌟 我的博客主题
+          </h1>
+          <p class="text-xl text-base-content/80 max-w-3xl mb-8">
+            一个简洁、响应式且功能丰富的 Astro 博客主题，专为内容创作者设计。
+          </p>
+          <div class="flex flex-wrap gap-4 justify-center">
+            <a href="/blog" class="btn btn-primary gap-2 btn-shine-effect">
+              <Icon name="lucide:book-open" class="w-5 h-5" />
+              <span>浏览博客</span>
+            </a>
+            <a href="https://github.com/EveSunMaple/Frosti" target="_blank" class="btn btn-outline gap-2">
+              <Icon name="lucide:github" class="w-5 h-5" />
+              <span>在 GitHub 上关注</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Start -->
+      <section class="py-6">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:rocket" class="w-6 h-6 text-primary" />
+          <span>快速开始</span>
+        </h2>
+
+        <div class="card bg-base-200 p-6">
+          <h3 class="text-xl font-bold mb-4">只需三个简单步骤即可开始：</h3>
+
+          <ol class="space-y-6 mb-6">
+            <li class="relative flex flex-col gap-4 items-start">
+              <div class="flex gap-4 items-center">
+                <div
+                  class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-content flex-shrink-0"
+                >
+                  1
+                </div>
+                <h4 class="font-bold">克隆仓库</h4>
+              </div>
+              <div class="relative w-full">
+                <p class="text-base-content/70 mb-2">使用 Git 将 Frosti 仓库克隆到本地：</p>
+                <div class="mockup-code text-sm mb-2">
+                  <pre><code>git clone --depth 1 https://github.com/EveSunMaple/Frosti.git Frosti</code></pre>
+                </div>
+              </div>
+            </li>
+
+            <li class="relative flex flex-col gap-4 items-start">
+              <div class="flex gap-4 items-center">
+                <div
+                  class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-content flex-shrink-0"
+                >
+                  2
+                </div>
+                <h4 class="font-bold">安装依赖</h4>
+              </div>
+              <div class="relative w-full">
+                <p class="text-base-content/70 mb-2">进入项目目录并安装依赖：</p>
+                <div class="mockup-code text-sm mb-2">
+                  <pre><code>cd Frosti && npm install</code></pre>
+                </div>
+              </div>
+            </li>
+
+            <li class="relative flex flex-col gap-4 items-start">
+              <div class="flex gap-4 items-center">
+                <div
+                  class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-content flex-shrink-0"
+                >
+                  3
+                </div>
+                <h4 class="font-bold">启动开发服务器</h4>
+              </div>
+              <div class="relative w-full">
+                <p class="text-base-content/70 mb-2">启动本地开发服务器以查看您的博客：</p>
+                <div class="mockup-code text-sm mb-2">
+                  <pre><code>npm run build && npm run dev</code></pre>
+                </div>
+                <p class="text-base-content/70">
+                  打开浏览器并访问 <code class="bg-base-300 px-2 py-1 rounded"
+                    >http://localhost:4321</code
+                  > 查看您的博客！
+                </p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="alert bg-primary/10 text-primary mb-0">
+            <Icon name="lucide:lightbulb" class="w-6 h-6" />
+            <span
+              >查看 <a href="/blog" class="underline">博客部分</a> 以获取详细指南和文档。</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- GitHub Stats -->
+      <section class="py-6">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:github" class="w-6 h-6 text-primary" />
+          <span>仓库统计</span>
+        </h2>
+
+        <GitHubStats username="Q7h2q9" repositoryName="blog" showLanguages={true} showContributors={true} />
+      </section>
+    </div>
+  </MainCard>
+</BaseLayout>
