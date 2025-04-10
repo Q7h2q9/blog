@@ -1,0 +1,43 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import LinkCard from "@/components/mdx/LinkCard.astro";
+import FriendCard from "@/components/mdx/FriendCard.astro";
+---
+
+<BaseLayout title="Friends">
+  <MainCard
+    title="Friends & Resources"
+    description="A collection of links to friends, technologies, and contributors to the Frosti project."
+    textOverlay=""
+    infoIcon="lucide:link"
+  >
+    <div class="space-y-10">
+      <!-- Friends Section -->
+      <section>
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:users" class="w-6 h-6 text-primary" />
+          <span>Friends</span>
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <FriendCard
+            name="l0fxxs"
+            avatar="https://github.com/github.png"
+            description="天赋型密码✌，强得没边"
+            url="https://l0fxxs.github.io"
+            type="friend"
+          />
+          <FriendCard
+            name="rjay9"
+            avatar="https://github.com/MeowLynxSea.png"
+            description="pwn✌️，卷麻了"
+            url="https://rjay9.top/"
+            type="friend"
+          />
+        </div>
+      </section>
+    </div>
+  </MainCard>
+</BaseLayout>

@@ -1,0 +1,80 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import FeatureCard from "@/components/mdx/FeatureCard.astro";
+import GitHubStats from "@/components/mdx/GitHubStats.astro";
+---
+
+<BaseLayout title="Home">
+  <MainCard title="Qfh的小窝" description="很高兴与你相遇" textOverlay="" infoIcon="lucide:info">
+    <div class="space-y-8">
+      <p class="text-base text-white bg-gray-800/90 p-3 rounded-lg">
+        ⟢于是我愿重走这条路 带着不同的感触 聆听小溪 凝视夜空 一次又一次⟢
+      </p>
+      <img src="https://github.com/EveSunMaple.png" alt="SunMaple" width="160" height="160" loading="eager" />
+    </div>
+    <div class="space-y-8">
+      <!-- Hero Section -->
+      <section class="py-6">
+        <div class="flex flex-col items-center text-center">
+          <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            🌟 主页/Home
+          </h1>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="py-6">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:sparkles" class="w-6 h-6 text-primary" />
+          <span>导航</span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <FeatureCard
+            title="Qfh的网络安全学习日常"
+            description="磕磕绊绊.吃一堑再吃一堑"
+            icon="lucide:smartphone"
+            color="oklch(0.7 0.2 30)"
+            href="/blog/category/tech"
+          />
+
+          <FeatureCard
+            title="生活"
+            description="规律作息、清淡饮食"
+            icon="lucide:moon"
+            color="oklch(0.65 0.2 280)"
+            href="/blog/category/life"
+          />
+
+          <FeatureCard
+            title="关于我"
+            description="我是谁？我在哪？我在做什么？"
+            icon="lucide:file-code"
+            color="oklch(0.6 0.2 160)"
+            href="/blog/aboutme"
+          />
+
+          <FeatureCard
+            title="友链"
+            description="志同道合的朋友们"
+            icon="lucide:search"
+            color="oklch(0.6 0.2 200)"
+            href="friend"
+          />
+        </div>
+      </section>
+
+      <!-- GitHub Stats -->
+      <section class="py-6">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:github" class="w-6 h-6 text-primary" />
+          <span>Repository Stats</span>
+        </h2>
+
+        <GitHubStats username="Q7h2q9" repositoryName="blog" showLanguages={true} showContributors={true} />
+      </section>
+    </div>
+  </MainCard>
+</BaseLayout>
