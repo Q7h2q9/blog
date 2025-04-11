@@ -1,7 +1,7 @@
 # 网站的基本信息
 site:
-  tab: test1 # 浏览器标签栏上显示的文本
-  title: 💠 title # 网站的标题
+  tab: 欢迎你 # 浏览器标签栏上显示的文本
+  title: 💠 XLOG # 网站的标题
   description: test3 # 网站的描述，用于SEO等
   language: zh # 网站的语言，例如 "en" 是英文
   favicon: /favicon.ico # 网站的图标，用于浏览器标签栏和其他地方显示
@@ -72,33 +72,25 @@ user:
         ariaLabel: Support my work # 图标的可访问性标签
         title: Support my work # 图标的悬浮标题
         svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://github.com/Q7h2q9"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
+      - href: "https://space.bilibili.com/434684032"
         ariaLabel: BiliBili
         title: BiliBili
         svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"
   footer:
     social:
       - href: "https://afdian.com/a/saroprock" # 链接
         ariaLabel: Support my work # 图标的可访问性标签
         title: Support my work # 图标的悬浮标题
         svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://github.com/Q7h2q9"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
+      - href: "https://space.bilibili.com/434684032"
         ariaLabel: BiliBili
         title: BiliBili
         svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"
