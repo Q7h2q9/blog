@@ -2,7 +2,7 @@
 title: "rc4算法"
 description: "标准rc4加解密（用的同一套代码）"
 pubDate: "October 22 2024"
-image: /images/image4.jpg
+image: /images/10.png
 categories:
   - tech
 tags:

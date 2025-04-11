@@ -2,7 +2,7 @@
 title: "ciscn复现笔记"
 description: "复现了几道ciscn前几年的逆向题，总结一下"
 pubDate: "December 06 2024"
-image: /images/image4.jpg
+image: /images/9.jpg
 categories:
   - tech
 tags:

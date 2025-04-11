@@ -2,7 +2,7 @@
 title: "buu刷题收获(1)"
 description: "刷了几页buu，写点tips方便回看"
 pubDate: "April 10 2025"
-image: /images/image4.jpg
+image: /images/6.jpg
 categories:
   - tech
 tags:

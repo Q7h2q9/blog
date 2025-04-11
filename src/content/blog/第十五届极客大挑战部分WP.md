@@ -2,7 +2,7 @@
 title: "第十五届极客大挑战部分WP(RE)"
 description: "当一幢建筑物完成时，应该把脚手架拆除干净。"
 pubDate: "November 24 2024"
-image: /images/image4.jpg
+image: /images/2.jpg
 categories:
   - tech
 tags:

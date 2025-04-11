@@ -2,7 +2,7 @@
 title: "base64（含变表）"
 description: "base64加解密时通常会遇到换表的情况，该脚本可根据自己需求调整码表"
 pubDate: "October 22 2024"
-image: /images/image4.jpg
+image: /images/5.jpg
 categories:
   - tech
 tags:

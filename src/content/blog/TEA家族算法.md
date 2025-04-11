@@ -2,7 +2,7 @@
 title: "TEA家族算法"
 description: "之前都是面向CTF-reverse学的TEA算法，属于是只知道找算法特征然后无脑一把梭，现在来好好学习总结一下"
 pubDate: "September 28 2024"
-image: /images/image4.jpg
+image: /images/13.jpg
 categories:
   - tech
 tags:

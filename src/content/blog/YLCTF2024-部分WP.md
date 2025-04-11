@@ -2,7 +2,7 @@
 title: "YLCTF2024部分WP"
 description: "YLCTF2024部分WP"
 pubDate: "October 21 2024"
-image: /images/image4.jpg
+image: /images/15.jpg
 categories:
   - tech
 tags:

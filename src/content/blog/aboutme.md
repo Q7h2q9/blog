@@ -2,7 +2,7 @@
 title: "关于我"
 description: "about me"
 pubDate: "April 10 2025"
-image: /images/image5.jpg
+image: /images/4.jpg
 
 tags:
   - others

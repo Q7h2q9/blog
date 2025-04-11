@@ -2,7 +2,7 @@
 title: "NSSCTF Round 27 Basic Reverse个人赛 WriteUp"
 description: " "
 pubDate: "March 16 2025"
-image: /images/image4.jpg
+image: /images/9.jpg
 categories:
   - tech
 tags:

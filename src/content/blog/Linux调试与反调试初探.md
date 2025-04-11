@@ -2,7 +2,7 @@
 title: "Linux调试与反调试初探"
 description: "ps:初入Linux调试，内容疏浅，如有不对的地方请指出。:)"
 pubDate: "April 01 2025"
-image: /images/image1.png
+image: /images/8.jpg
 categories:
   - tech
 tags:

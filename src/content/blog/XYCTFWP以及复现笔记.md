@@ -2,7 +2,7 @@
 title: "XYCTF2025个人WP及复现笔记"
 description: "清明假期室友出去玩了三天，而我坐了三天牢ahhhh"
 pubDate: "April 10 2025"
-image: /images/image4.jpg
+image: /images/3.jpg
 categories:
   - tech
 tags:

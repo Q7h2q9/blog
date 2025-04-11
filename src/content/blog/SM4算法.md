@@ -2,7 +2,7 @@
 title: "SM4算法"
 description: "SM4算法简介"
 pubDate: "December 17 2024"
-image: /images/image4.jpg
+image: /images/11.jpg
 categories:
   - tech
 tags:
