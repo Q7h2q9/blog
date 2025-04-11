@@ -1,7 +1,7 @@
 ---
 title: "SMC初探"
 description: "简单总结一下SMC"
-pubDate: "March 10 2024"
+pubDate: "March 10 2025"
 image: /images/image4.jpg
 categories:
   - tech
