@@ -45,11 +45,11 @@ site:
           svg: "material-symbols:earthquake-rounded"
           target: _self
         # 子菜单项配置
-    - id: project
-      text: 作品
-      href: /project
-      svg: "material-symbols:code-blocks-outline"
-      target: _self
+    #  - id: project
+    #    text: 作品
+    #    href: /project
+    #    svg: "material-symbols:code-blocks-outline"
+    #    target: _self
     - id: friend
       text: 友链
       href: /friend
@@ -64,14 +64,10 @@ site:
 # 用户的个人信息
 user:
   name: Q7h2q9 # 用户名
-  site: "https://frosti.saroprock.com" # 用户的网站链接
+  site: "https://q7h2q9.top" # 用户的网站链接
   avatar: /images/13.jpg # 用户头像路径
   sidebar: # 侧边栏配置
     social:
-      - href: "https://afdian.com/a/saroprock" # 链接
-        ariaLabel: Support my work # 图标的可访问性标签
-        title: Support my work # 图标的悬浮标题
-        svg: "ri:cup-line"
       - href: "https://github.com/Q7h2q9"
         ariaLabel: Github
         title: Github
@@ -82,10 +78,6 @@ user:
         svg: "ri:bilibili-line"
   footer:
     social:
-      - href: "https://afdian.com/a/saroprock" # 链接
-        ariaLabel: Support my work # 图标的可访问性标签
-        title: Support my work # 图标的悬浮标题
-        svg: "ri:cup-line"
       - href: "https://github.com/Q7h2q9"
         ariaLabel: Github
         title: Github
