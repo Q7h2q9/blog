@@ -1,5 +1,5 @@
 ---
-title: "手脱UPX脱壳初探"
+title: "手脱UPX壳初探"
 description: "不知道为什么半天就能搞定的事以前花一周都搞不定"
 pubDate: "April 27 2025"
 image: /images/5.jpg
@@ -10,7 +10,7 @@ tags:
   - 壳
 ---
 
-## 手脱UPX脱壳初探
+## 手脱UPX壳初探
 
 PS:仅面向做题总结经验，底层细节还有待深挖
 
@@ -362,8 +362,8 @@ PS：还是不够清爽，再看看其他文章找找方法
 其他：
 
 - [细讲UPX壳 | CN-SEC 中文网](https://cn-sec.com/archives/3517798.html)
-
 - [深入解析 UPX 压缩与脱壳：从原理到实战-CSDN博客](https://blog.csdn.net/m0_57836225/article/details/145504179)
 - [UPX - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/UPX)
 - [关闭地址随机化ASLR - 简书](https://www.jianshu.com/p/91b2b6665e64)
 - [破解入门（五）-----实战"ESP定律法"脱壳-CSDN博客](https://blog.csdn.net/qiurisuixiang/article/details/7649799)
+- [小甲鱼讲壳](https://www.bilibili.com/video/BV1us411P7yo/?spm_id_from=333.1391.0.0&vd_source=6f3f092c4ab81603a895ccd30f0fdc27)
