@@ -22,10 +22,12 @@ tags:
 
 ### 我在做什么😯😯
 
-
-
 努力成为一名合格的`re`手
 
 每天一点的博客迁移，源地址：[Q7h2q9 - 博客园](https://www.cnblogs.com/Q7h2q9)
 
 看书、喝茶、刷b站
+
+### 联系我👉👈
+
+"https://msg.cnblogs.com/send/Q7h2q9"(暂定)
