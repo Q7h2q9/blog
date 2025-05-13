@@ -57,7 +57,7 @@ site:
       target: _self
     - id: contact
       text: 联系
-      href: "mailto:contact.evesunmaple@outlook.com"
+      href: "https://msg.cnblogs.com/send/Q7h2q9"
       target: _blank # 在新标签页打开
       svg: "material-symbols:attach-email-outline-rounded"
 
