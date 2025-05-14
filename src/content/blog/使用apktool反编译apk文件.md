@@ -54,7 +54,7 @@ cmd输入`apktool`​输出以下内容代表成功
 
 ![image](https://gcore.jsdelivr.net/gh/Q7h2q9/photohouse/picgoandgithub20250513141518782.png)
 
-如何运行参考[入门指南](入门指南.md)
+如何运行参考[入门指南](https://q7h2q9.top/blog/安卓逆向入门指南/)
 
 使用MT管理器获取包名，其实在jeb里也直接看得到
 
